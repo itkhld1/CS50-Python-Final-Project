@@ -14,7 +14,7 @@ from main import (
 class TestYourCode(unittest.TestCase):
 
     def setUp(self):
-        # Create temporary test files
+        # Create temporary test files 
         self.kitaplar_test_fd, self.kitaplar_test_path = tempfile.mkstemp()
         self.kullanicilar_test_fd, self.kullanicilar_test_path = tempfile.mkstemp()
         self.odunc_test_fd, self.odunc_test_path = tempfile.mkstemp()
